@@ -52,6 +52,7 @@ replay_pid*
 /bin/platform
 /bin/modules
 /bin/custom/ext-deprecated
+!bin/custom/nendrasys 
 /bin/custom/**/javadoc/*.jar
 /bin/custom/**/sources/*.jar
 /bin/custom/**/WEB-INF/doc/*.jar

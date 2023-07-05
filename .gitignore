@@ -43,7 +43,6 @@ replay_pid*
 
 /build-config/common/local.properties
 
-/config
 /config*/config/bin/
 /data/
 /temp/
@@ -61,6 +60,7 @@ replay_pid*
 
 /gitsettings.xml
 /velocity.log
+/config
 !/config/local.properties
 !/config/localextensions.xml
 /config/tomcat/conf/server.xml

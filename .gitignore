@@ -22,3 +22,409 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+#/config/**
+#/bin/**
+#
+#!hybris/bin/custom
+#!hybris/config/local.properties
+
+### Hybris template
+/README
+/build-tools
+/c4c-integration
+/hybris-Mobile-Apps-SDK
+/hybris-ems
+/hybris-oms
+/hybris-sbg
+/installer
+/licenses
+/pom.xml
+
+/build-config/common/local.properties
+
+/config
+/config*/config/bin/
+/data/
+/temp/
+/log/
+/bin/ext-*
+/bin/platform
+/bin/modules
+/bin/custom/ext-deprecated
+/bin/custom/**/javadoc/*.jar
+/bin/custom/**/sources/*.jar
+/bin/custom/**/WEB-INF/doc/*.jar
+/bin/custom/**/*_bof.jar
+/bin/custom/ext-deprecated/
+
+/gitsettings.xml
+/velocity.log
+!config/local.properties
+!config/localextensions.xml
+/config/tomcat/conf/server.xml
+
+
+#  Addon specific copy folders
+**/_ui/addons
+**/views/addons
+**/tld/addons
+**/tags/addons
+**/messages/addons
+**/lib/addons
+**/web/addonsrc
+**/_ui-src/addons
+**/web/addontestsrc
+**/web/commonwebsrc/*/
+**/web/webroot/WEB-INF/lib/addon-*
+wro_addons.xml
+/bin/custom/*/*storefront/node_modules/*
+
+
+
+
+# misc for styleguide
+/bin/custom/*/*storefront/styleguide/node_modules/*
+/bin/custom/*/*storefront/styleguide/build/*
+/bin/custom/*/*storefront/styleguide/coverage/*
+/bin/custom/*/*storefront/styleguide/.DS_Store
+/bin/custom/*/*storefront/styleguide/.env.local
+/bin/custom/*/*storefront/styleguide/.env.development.local
+/bin/custom/*/*storefront/styleguide/.env.test.local
+/bin/custom/*/*storefront/styleguide/.env.production.local
+/bin/custom/*/*storefront/styleguide/npm-debug.log*
+/bin/custom/*/*storefront/styleguide/yarn-debug.log*
+/bin/custom/*/*storefront/styleguide/yarn-error.log*
+
+#**/generatedVariables.js
+#**/generatedVariables.tag
+**/build.xml
+**/eclipsebin
+**/classes
+**/gensrc
+**/platformhome.properties
+**/extensioninfo.xsd
+**/testclasses$
+**/hmc/bin
+**/resources/beans.xsd
+**/resources/hmc.xsd
+**/resources/items.xsd
+**/lib/*.jar
+**/lib/.lastupdate
+**/*-testclasses.xml
+**/*-webtestclasses.xml
+**/jalo
+
+### Build and shared assets
+/build
+/build.info
+/bin/custom/shared
+
+### Gradle template
+.gradle
+/build/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+
+
+
+## Directory-based project format:
+/.idea/
+/.history/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+#.idea/workspace.xml
+#.idea/tasks.xml
+#.idea/dictionaries
+#.idea/vcs.xml
+#.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+/.idea/dataSources.ids
+/.idea/dataSources.xml
+/.idea/sqlDataSources.xml
+/.idea/dynamic.xml
+/.idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Frontend / NPM:
+npm-debug.log
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+idea-module-files/
+*.iml
+
+/.idea_modules/
+/idea-module-files/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Created by .ignore support plugin (hsz.mobi)
+
+### Eclipse template
+
+.metadata
+tmp/
+/tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+#.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+#.project
+
+# External tool builders
+#.externalToolBuilders/
+
+# Workspace
+/workspace
+/workspace
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+#.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+/.recommenders/
+
+### Java template
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+/.mtj.tmp/
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#Solr
+/config/solr/instances/*
+
+# Built CSS / JS
+**/_ui/responsive/theme-*/css/**
+
+
+#OSX
+**/.DS_Store
+
+/bin/custom/toko/tokobifrostexternalservices/web/addonsrc/*
+/bin/custom/toko/tokobifrostexternalservices/web/commonwebsrc/*
+
+#for CCV2
+/bin/custom/tokocustomconfig/resources/tokocustomconfig/env/*/*.properties
+/bin/custom/tokocustomconfig/resources/tokocustomconfig/env/*/*.json
+/bin/custom/tokocustomconfig/resources/tokocustomconfig/env/*/tomcat/conf/*.xml
+#JRebel
+**/rebel.xml
+/node_modules
+
+# For generated extensions
+/bin/custom/**/.classpath
+/bin/custom/**/.classpath.bak
+/bin/custom/**/.settings
+#/bin/custom/**/.project
+/bin/custom/**/resources/*.build.number
+
+/bin/custom/toko/tokohac/resources/tokohac/vcs.properties
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/js-storefront/samsungstorefront/dist
+/js-storefront/samsungstorefront/tmp
+/js-storefront/samsungstorefront/out-tsc
+/js-storefront/samsungstorefront/e2e/reports/*
+!/js-storefront/samsungstorefront/e2e/reports/.gitkeep
+# Only exists if Bazel was run
+/js-storefront/samsungstorefront/bazel-out
+
+# dependencies
+/js-storefront/samsungstorefront/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/js-storefront/samsungstorefront/.idea
+/js-storefront/samsungstorefront/.project
+/js-storefront/samsungstorefront/.classpath
+/js-storefront/samsungstorefront/.c9/
+/js-storefront/samsungstorefront/.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+/js-storefront/samsungstorefront/.vscode/*
+!js-storefront/samsungstorefront/.vscode/settings.json
+!js-storefront/samsungstorefront/.vscode/tasks.json
+!js-storefront/samsungstorefront/.vscode/launch.json
+!js-storefront/samsungstorefront/.vscode/extensions.json
+/js-storefront/samsungstorefront/.history/*
+
+# misc
+/js-storefront/samsungstorefront/.sass-cache
+/js-storefront/samsungstorefront/connect.lock
+/js-storefront/samsungstorefront/coverage
+/js-storefront/samsungstorefront/libpeerconnection.log
+yarn-error.log
+testem.log
+/js-storefront/samsungstorefront/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+#package lock
+package-lock.json
+yarn.lock
+
+
+/bin/custom/easycore/easycore/lib/
+
+/bin/**/bin
+
+# Filename patterns to ignore
+Generated*.java
+*testclasses.xml
+*hmc.jar
+ruleset.xml
+*.log
+base.properties
+
+#  Addon specific copy folders
+**/_ui/addons
+**/views/addons
+**/tld/addons
+**/tags/addons
+**/messages/addons
+*_bof.jar
+
+**/web/commonwebsrc
+
+**/.settings/*.prefs
+
+jacocoagent.jar
+
+**/.idea/*
+**/eclipsebin/*
+
+.pmd
+*build.number
+**/generated*.xml
+**/dummy.txt
+/bin/custom/importwebservice/out/**
+
+
+/bin/custom/toko/tokostorefront/web/webroot/_ui/responsive/common/*
+/bin/custom/toko/tokostorefront/web/webroot/_ui/responsive/theme*
+/bin/custom/toko/tokostorefront/web/webroot/_ui/responsive/theme-base-variables.less/css
+/bin/custom/toko/tokostorefront/coverage
+/bin/custom/toko/tokostorefront/web/webroot/_ui/responsive/common/js/test_fixtures/*
+/bin/custom/toko/tokostorefront/web/webroot/_ui/responsive/common/js/test_specs/*
+
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+Gemfile*.lock
+InstalledFiles
+_yardoc
+coverage
+/temp/sassgem/gems/compass-import-once-1.0.5/doc/
+/temp/sassgem/gems/compass-import-once-1.0.5/lib/bundler/man
+/temp/sassgem/gems/compass-import-once-1.0.5/pkg
+/temp/sassgem/gems/compass-import-once-1.0.5/rdoc
+/temp/sassgem/gems/compass-import-once-1.0.5/spec/reports
+/temp/sassgem/gems/compass-import-once-1.0.5/test/tmp
+/temp/sassgem/gems/compass-import-once-1.0.5/test/version_tmp
+/temp/sassgem/gems/compass-import-once-1.0.5/tmp
+
+
+.Trashes
+.com.apple.timemachine.supported
+.fseventsd
+.idea
+.rbx
+/temp/sassgem/gems/rb-fsevent-0.9.6/ext/build
+Desktop DB
+Desktop DF
+Gemfile.lock
+/temp/sassgem/gems/rb-fsevent-0.9.6/pkg/*
+
+
+/temp/sassgem/gems/chunky_png-1.3.5/spec/resources/_*.png
+/temp/sassgem/gems/chunky_png-1.3.5/pkg
+/temp/sassgem/gems/chunky_png-1.3.5/tmp
+/temp/sassgem/gems/chunky_png-1.3.5/doc
+/temp/sassgem/gems/chunky_png-1.3.5/.yardoc
+/temp/sassgem/gems/chunky_png-1.3.5/.bundle
+/temp/sassgem/gems/chunky_png-1.3.5/_site
+test.*

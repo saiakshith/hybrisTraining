@@ -1,0 +1,14 @@
+
+INSERT_UPDATE Product;supercategories;
+
+INSERT_UPDATE BaseStore;submitOrderProcessCode
+
+INSERT_UPDATE Order;consignments
+
+INSERT_UPDATE Consignment;consignmentEntries
+
+INSERT_UPDATE ConsignmentEntry;orderEntry
+
+INSERT_UPDATE OrderEntry;consignmentEntries;
+
+

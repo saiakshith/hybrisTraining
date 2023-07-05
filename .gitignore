@@ -60,9 +60,9 @@ replay_pid*
 
 /gitsettings.xml
 /velocity.log
-/config
-!/config/local.properties
-!/config/localextensions.xml
+/config/**
+!config/local.properties
+!config/localextensions.xml
 /config/tomcat/conf/server.xml
 
 

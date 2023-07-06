@@ -9,6 +9,7 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+/SIGNATURE.SMF
 
 # Package Files #
 *.jar
@@ -30,7 +31,7 @@ replay_pid*
 #!hybris/config/local.properties
 
 ### Hybris template
-/README
+#/README
 /build-tools
 /c4c-integration
 /hybris-Mobile-Apps-SDK
